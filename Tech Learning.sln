@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ts", "ts\ts.njsproj", "{FBB0709B-91D7-4442-9D84-941FD2AA08FB}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "vuejs", "vuejs\vuejs.njsproj", "{E19B1393-BE5B-46EF-A6C6-FEAD0B23F269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19B1393-BE5B-46EF-A6C6-FEAD0B23F269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19B1393-BE5B-46EF-A6C6-FEAD0B23F269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19B1393-BE5B-46EF-A6C6-FEAD0B23F269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19B1393-BE5B-46EF-A6C6-FEAD0B23F269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBFF0AA7-97C4-45DE-9438-50EA7E115ECF}
+	EndGlobalSection
+EndGlobal
