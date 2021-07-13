@@ -1,5 +1,5 @@
-function greet(person, date) {
-    console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+function identity(arg) {
+    return arg;
 }
-greet("Maddison", new Date());
-//# sourceMappingURL=app.js.map
+var output = identity("Hello, world!");
+console.log(output);

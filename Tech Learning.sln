@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ts", "ts\ts.njsproj", "{FBB0709B-91D7-4442-9D84-941FD2AA08FB}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "vuejs", "vuejs\vuejs.njsproj", "{B91DAC8E-A228-434A-86D2-E107AEF2C2EF}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "vuejs", "vuejs\vuejs.njsproj", "{ACD06119-3346-4175-9D3E-D3B491C84AFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB0709B-91D7-4442-9D84-941FD2AA08FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B91DAC8E-A228-434A-86D2-E107AEF2C2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B91DAC8E-A228-434A-86D2-E107AEF2C2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B91DAC8E-A228-434A-86D2-E107AEF2C2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B91DAC8E-A228-434A-86D2-E107AEF2C2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD06119-3346-4175-9D3E-D3B491C84AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD06119-3346-4175-9D3E-D3B491C84AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD06119-3346-4175-9D3E-D3B491C84AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD06119-3346-4175-9D3E-D3B491C84AFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

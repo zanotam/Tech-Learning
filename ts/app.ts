@@ -1,5 +1,7 @@
-function greet(person: string, date: Date) {
-  console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+function identity<Type>(arg: Type): Type {
+  return arg;
 }
 
-greet("Maddison", new Date());
+let output = identity<string>("Hello, world!");
+
+console.log(output);

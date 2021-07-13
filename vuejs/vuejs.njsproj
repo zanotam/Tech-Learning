@@ -3,16 +3,17 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>vue</Name>
-    <RootNamespace>vue</RootNamespace>
+    <Name>vuejs</Name>
+    <RootNamespace>vuejs</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b91dac8e-a228-434a-86d2-e107aef2c2ef</ProjectGuid>
+    <ProjectGuid>acd06119-3346-4175-9d3e-d3b491c84afb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>node_modules\@vue\cli-service\bin\vue-cli-service.js</StartupFile>
+    <StartupFile>server.ts</StartupFile>
+    <StartWebBrowser>True</StartWebBrowser>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +23,6 @@
     <NodejsPort>1337</NodejsPort>
     <EnableTypeScript>true</EnableTypeScript>
     <StartWebBrowser>true</StartWebBrowser>
-    <ScriptArguments>serve</ScriptArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,28 +31,10 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="public\favicon.ico" />
-    <Content Include="public\index.html" />
-    <Content Include="src\App.vue" />
-    <Content Include="src\components\Home.vue" />
+    <None Include="server.ts" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="dist\" />
-    <Folder Include="public\" />
-    <Folder Include="src\" />
-    <Folder Include="src\assets\" />
-    <Folder Include="src\components\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="src\main.ts" />
-    <None Include="src\shims-vue.d.ts" />
-    <None Include="src\shims-tsx.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="babel.config.js" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
