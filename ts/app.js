@@ -1,5 +1,6 @@
 function identity(arg) {
     return arg;
 }
-var output = identity("Hello, world!");
+var typedIdentity = identity;
+var output = typedIdentity("Hello, world!");
 console.log(output);
